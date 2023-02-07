@@ -14,7 +14,8 @@ struct WeatherSheetView: View {
     
     let dateFormatter = DateFormatter()
     init() {
-        dateFormatter.dateFormat = "E MMM d" + "日"
+        //dateFormatter.dateFormat = "E MMM d" + "日"
+        dateFormatter.dateFormat = "MMMd日（E）"
     }
     
     @Environment(\.dismiss) var dismiss
