@@ -1,0 +1,2 @@
+# LastChangeWeather
+SwiftUIで一週間分の天気を表示するアプリを作成しました。
